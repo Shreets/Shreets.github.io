@@ -1,0 +1,52 @@
+#contact .social i {
+  margin-right: 2rem;
+}
+
+@media (max-width: 765px) {
+  #projects .project-card {
+    border: 2px solid #72526c;
+    padding: 1rem;
+    width: 45%;
+    margin: 0.5rem;
+  }
+
+  #contact .footer-wrapper {
+    display: block;
+  }
+
+  #contact .social {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 555px) {
+  #projects .project-card {
+    width: 100%;
+  }
+
+  ul li a {
+    font-size: 2rem;
+    font-weight: bolder;
+    padding: 0.5rem;
+  }
+}
+
+@media (max-width: 450px) {
+  ul {
+    display: block;
+    text-align: center;
+  }
+
+  ul li {
+    background: #d6c6d5;
+    margin-top: 0.5rem;
+  }
+
+  #about .header-wrapper #about-info {
+    width: 80%;
+
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+}
